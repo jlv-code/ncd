@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/** 
+	FONTS
+*/
+/** 
+	COLOR PALLETE
+*/
+/**
+	Estilos básicos de Wordpress
+ */
+.wp-caption {
+  display: block; }
+
+.wp-caption-text {
+  padding: 5px 3px;
+  color: #fff;
+  font-family: "Archivo Narrow";
+  font-size: .7em;
+  background-color: #aaa; }
+
+.aligncenter {
+  display: block;
+  margin: 15px auto 0; }
+
+.alignnone,
+.alignleft,
+.alignright {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.alignleft {
+  margin-right: 15px;
+  float: left; }
+
+.alignright {
+  margin-left: 15px;
+  float: right; }
+
+
+
+/*# sourceMappingURL=maps/richtext.css.map */
