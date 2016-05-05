@@ -21,11 +21,23 @@
 	<meta name="revisit-after" content="1" />
 	<meta name="description" content="NotiCentroDigital es tu mejor opción para ver las noticias" />
 	<meta name="keywords" content="venezuela, noticias, politica, entretenimiento, deporte, farandula, loteria" />
-	<meta name="copyright" content="NCD | <?php echo date('Y') ?>" />
+	<meta name="copyright" content="NCD | <?php echo date( 'Y' ) ?>" />
 
 	<?php wp_head() ?>
 
 </head>
 
 <body <?php body_class() ?>>
-	
+	<main id="Main">
+		<div class="Inner">
+			<header id="Header" class="Header">
+				<div class="Inner">
+					<div class="Logo"><img src="<?php echo get_template_directory_uri() ?>/static/images/logo.png" alt="NCD"></div>
+					<div class="Date"><?php echo date( 'M d, Y' ) ?></div>
+					<div class="NavBar">
+						<div class="Inner">
+							<nav id="NavBarMenu" class="NavBarMenu"><?php global $SiteMenu; wp_nav_menu( $SiteMenu )  ?></nav>
+						</div>
+					</div>
+				</div>
+			</header>

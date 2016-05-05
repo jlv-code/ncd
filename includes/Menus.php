@@ -9,7 +9,7 @@
 function NavMenus() {
 
 	$locations = array(
-		'main' => 'Principal',
+		'SiteMenu' => 'Menu del Sitio',
 	);
 	register_nav_menus( $locations );
 
@@ -18,10 +18,10 @@ function NavMenus() {
 // Hook into the 'init' action
 add_action( 'init', 'NavMenus' );
 
-$Main = (array) array(
-	'theme_location' => 'main', 
+$SiteMenu = (array) array(
+	'theme_location' => 'SiteMenu', 
 	'container' => false, 
-	'menu_id' => 'MainMenu', 
-	'menu_class' => 'MainMenu', 
+	'menu_id' => 'SiteMenu', 
+	'menu_class' => 'SiteMenu', 
 	'fallback_cb' => false
 );

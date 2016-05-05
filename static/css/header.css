@@ -4,6 +4,44 @@
 /** 
 	COLOR PALLETE
 */
+header#Header {
+  display: block;
+  border-top: 5px solid #37474f; }
+  header#Header .Inner {
+    display: block; }
+    header#Header .Inner .Logo {
+      display: block;
+      margin-top: 20px; }
+      header#Header .Inner .Logo img {
+        margin: 0 auto;
+        width: 215px; }
+    header#Header .Inner .Date {
+      display: block;
+      color: #333;
+      font-family: "Archivo Narrow";
+      font-size: 1em; }
+    header#Header .Inner .NavBar {
+      display: block;
+      background-color: #607d8b; }
+      header#Header .Inner .NavBar .Inner {
+        display: block; }
+        header#Header .Inner .NavBar .Inner nav.NavBarMenu {
+          display: block;
+          margin-top: 5px; }
+          header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu {
+            display: flex;
+            justify-content: flex-start;
+            margin: 0;
+            list-style: none; }
+            header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu li {
+              margin-left: 10px; }
+              header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu li a {
+                display: block;
+                padding: 3px;
+                color: white;
+                font-family: "Oswald";
+                font-size: 1em;
+                text-decoration: none; }
 
 
 

@@ -1,1 +1,81 @@
 @import 'vars';
+
+header#Header {
+
+	display: block;
+	border-top: 5px solid $DarkBlue;
+
+	.Inner {
+
+		display: block;
+
+		.Logo {
+
+			display: block;
+			margin-top: 20px;
+
+			img {
+				margin: 0 auto;
+				width: 215px;
+			}
+
+		}
+
+		.Date {
+			display: block;
+			color: $Gray3;
+			font: {
+				family: $ArchivoNarrow;
+				size: 1em;
+			}
+		}
+
+		.NavBar {
+
+			display: block;
+			background-color: $LightBlue;
+
+			.Inner {
+
+				display: block;
+
+				nav.NavBarMenu {
+
+					display: block;
+					margin-top: 5px;
+
+					ul.SiteMenu {
+
+						display: flex;
+						justify-content: flex-start;
+						margin: 0;
+						list-style: none;
+
+						li {
+
+							margin-left: 10px;
+
+							a {
+								display: block;
+								padding: 3px;
+								color: white;
+								font: {
+									family: $Oswald;
+									size: 1em;
+								}
+								text-decoration: none;
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

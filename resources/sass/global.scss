@@ -1,1 +1,18 @@
 @import 'vars';
+
+main#Main {
+
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1100px;
+
+	.Inner {
+
+		display: block;
+
+		// Check Header.scss file for Header styles
+
+	}	
+
+}

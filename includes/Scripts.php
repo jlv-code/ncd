@@ -7,6 +7,7 @@
 
 // Register Scripts
 function Scripts() {
+	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'GFonts', get_template_directory_uri() . '/static/js/GFonts.js', array(), false, true );
 	wp_enqueue_script( 'SliderjQuery', get_template_directory_uri() . '/static/js/SliderjQuery.js', array(), false, true );
 }
