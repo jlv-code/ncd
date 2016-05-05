@@ -1,0 +1,17 @@
+{
+  "name": "ncd",
+  "version": "1.0.0",
+  "description": "Wordpress Theme",
+  "author": "jlv",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-order": "^1.1.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-strip-css-comments": "^1.2.0"
+  },
+}
