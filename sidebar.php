@@ -6,3 +6,5 @@
 	 */
 
 ?>
+
+<div class="Sidebar"></div>

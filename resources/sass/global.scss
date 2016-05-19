@@ -13,6 +13,339 @@ main#Main {
 
 		// Check Header.scss file for Header styles
 
+		.Container {
+
+			display: block;
+			padding: {
+				top: 30px;
+				bottom: 30px;
+				left: 30px;
+				right: 30px;
+			}
+			background-color: white;
+
+			.Inner {
+
+				display: block;
+
+				.Featured {
+
+					display: block;
+
+					.Ads {
+						display: block;
+						margin: 0 auto;
+						width: 1000px;
+						height: 90px;
+						background-color: lightgray;
+					}
+
+					.FeaturedPost {
+
+						margin-top: 30px;
+						padding-bottom: 30px;
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						border-bottom: 1px solid $DarkBlue;
+
+						.FeaturedPost-info {
+
+							display: block;
+							width: 355px;
+
+							.FeaturedPost-cat {
+								
+								display: inline-block;
+								margin-bottom: 10px;
+
+								a {
+									display: block;
+									padding: 5px 10px;
+									color: white;
+									background-color: $Red;
+									font-size: .9em;
+									text-decoration: none;
+								}
+
+							}
+
+							.FeaturedPost-time {
+								display: inline-block;
+								margin-bottom: 10px;
+								padding: 0 5px;
+								color: $GrayA;
+								font-size: .8em;
+							}
+
+							.FeaturedPost-title {
+								display: block;
+								margin-bottom: 10px;
+								color: $Gray3;
+								font-size: 2em;
+							}
+
+							.FeaturedPost-excerpt {
+								display: block;
+								margin-bottom: 20px;
+								color: $Gray8;
+								font-size: 1em;
+							}
+
+							.FeaturedPost-readmore {
+
+								display: inline-block;
+								padding: 5px 10px;
+								color: white;
+								background-color: $LightBlue;
+								font-size: 1em;
+								text-decoration: none;
+								border-bottom: 2px solid $LightBlue;
+								transition: .2s;
+
+								&:hover {
+									border-bottom: 2px solid $DarkBlue;
+								}
+
+							}
+
+						}
+
+						.FeaturedPost-image { 
+
+							display: block;
+							width: 655px;
+							height: auto;
+
+							img {
+								display: block;
+								width: 100%;
+								height: auto;
+							}
+
+						}
+
+					}
+
+				}
+
+				.Columns {
+					
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-start;
+
+					.Column,
+					.Sidebar {
+						display: block;
+						margin-top: 30px;
+					}
+
+					.Column-one {
+
+						width: 490px;
+
+						.Post {
+
+							display: block;
+							margin-bottom: 30px;
+
+							.Post-image {
+
+								display: block;
+								width: 100%;
+								height: auto;
+
+								img {
+									display: block;
+									width: 100%;
+									height: auto;
+								}
+
+							}
+
+							.Post-cat {
+
+								display: inline-block;
+								margin-bottom: 10px;
+
+								a {
+									display: block;
+									padding: 5px 10px;
+									color: white;
+									background-color: $Red;
+									font-size: .9em;
+									text-decoration: none;
+								}
+							}
+
+							.Post-time {
+								display: inline-block;
+								margin-bottom: 10px;
+								padding: 0 5px;
+								color: $GrayA;
+								font-size: .8em;
+							}
+
+							.Post-title {
+								display: block;
+								margin-bottom: 10px;
+								color: $Gray3;
+								font-size: 1.5em;
+								text-decoration: none;
+							}
+
+							.Post-excerpt {
+								display: block;
+								color: $LightBlue;
+								font-size: 1em;
+							}
+
+						}
+
+						.CategoryPost {
+
+							display: block;
+							margin-bottom: 30px;
+							padding-bottom: 30px;
+							border-bottom: 1px dotted $GrayD;
+
+							.CategoryPost-title {
+								display: block;
+								margin-bottom: 10px;
+								color: $Gray3;
+								font-size: 1.5em;
+								text-decoration: none;
+							}
+
+							.CategoryPost-info {
+
+								display: flex;
+								justify-content: space-between;
+								
+								.CategoryPost-image {
+
+									display: block;
+									width: 100px;
+									height: auto;
+
+									img {
+										display: block;
+										width: 100%;
+										height: auto;
+									}
+
+								}
+
+								.CategoryPost-excerpt {
+									display: block;
+									width: 380px;
+									color: $LightBlue;
+									font-size: 1em;
+								}
+
+							}
+
+						}
+
+						.SingleTitle {
+							display: block;
+							color: $Gray3;
+							font: {
+								family: $Oswald;
+								size: 1.3em;
+							}
+						}
+
+						.SingleTime {
+							display: block;
+							padding-bottom: 5px;
+							color: $GrayA;
+							font-size: .9em;
+							border-bottom: 1px dotted $GrayD;
+						}
+
+						.SingleContent {
+
+							display: block;
+							margin-top: 30px;
+
+							img {
+								max-width: 490px;
+								height: auto;
+							}
+
+							iframe {
+								max-width: 490px;
+							}
+
+						}
+
+					}
+
+					.Column-two {
+
+						width: 220px;
+
+						.Post {
+
+							display: block;
+							margin-bottom: 30px;
+							border-bottom: 1px dotted $GrayD;
+
+							.Post-image {
+
+								display: block;
+								width: 100%;
+								height: auto;
+
+								img {
+									display: block;
+									width: 100%;
+									height: auto;
+								}
+
+							}
+
+							.Post-time {
+								display: block;
+								margin-bottom: 5px;
+								color: $GrayA;
+								font-size: .8em;
+							}
+
+							.Post-title {
+								display: block;
+								margin-bottom: 10px;
+								color: $Gray3;
+								font-size: 1.3em;
+								text-decoration: none;
+							}
+
+						}
+
+					}
+
+					.Sidebar {
+						width: 270px;
+					}
+
+				}
+
+				.CategoryTitle {
+					display: block;
+					color: $LightBlue;
+					font: {
+						family: $Oswald;
+						size: 1.3em;
+					}
+					border-bottom: 1px solid $LightBlue;
+				}
+
+			}
+
+		}
+
 	}	
 
 }

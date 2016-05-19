@@ -34,14 +34,18 @@ header#Header {
             margin: 0;
             list-style: none; }
             header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu li {
-              margin-left: 10px; }
+              margin-right: 10px; }
               header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu li a {
                 display: block;
-                padding: 3px;
+                padding: 3px 10px;
                 color: white;
                 font-family: "Oswald";
                 font-size: 1em;
-                text-decoration: none; }
+                text-decoration: none;
+                transition: .2s; }
+                header#Header .Inner .NavBar .Inner nav.NavBarMenu ul.SiteMenu li a:hover {
+                  color: #37474f;
+                  background-color: white; }
 
 
 

@@ -53,17 +53,25 @@ header#Header {
 
 						li {
 
-							margin-left: 10px;
+							margin-right: 10px;
 
 							a {
+								
 								display: block;
-								padding: 3px;
+								padding: 3px 10px;
 								color: white;
 								font: {
 									family: $Oswald;
 									size: 1em;
 								}
 								text-decoration: none;
+								transition: .2s;
+
+								&:hover {
+									color: $DarkBlue;
+									background-color: white;
+								}
+
 							}
 
 						}
